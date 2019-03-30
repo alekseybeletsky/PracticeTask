@@ -19,6 +19,16 @@ namespace PracticeTask
             Console.WriteLine($"The square of the round {Program.PerformCalculation(radius)}");
 
             Console.ReadKey();
+
+            long a = 20;
+            long b = 30;
+            Sum((int)a, (int)b);
+
+        }
+
+        static void Sum(int a, int b)
+        {
+
         }
 
         public static decimal PerformCalculation(int r)
